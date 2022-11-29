@@ -18,6 +18,7 @@
 		505D5B7029364832006F7218 /* Assignment4UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505D5B6F29364832006F7218 /* Assignment4UITestsLaunchTests.swift */; };
 		505D5B7D29364A1F006F7218 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505D5B7C29364A1F006F7218 /* TableViewController.swift */; };
 		505D5B7F29364E9B006F7218 /* ScrollViewControllerForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505D5B7E29364E9B006F7218 /* ScrollViewControllerForm.swift */; };
+		505D5B81293654A7006F7218 /* ScrollViewDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505D5B80293654A7006F7218 /* ScrollViewDataController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		505D5B6F29364832006F7218 /* Assignment4UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment4UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		505D5B7C29364A1F006F7218 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		505D5B7E29364E9B006F7218 /* ScrollViewControllerForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewControllerForm.swift; sourceTree = "<group>"; };
+		505D5B80293654A7006F7218 /* ScrollViewDataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewDataController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				505D5B5029364831006F7218 /* ViewController.swift */,
 				505D5B7C29364A1F006F7218 /* TableViewController.swift */,
 				505D5B5229364831006F7218 /* Main.storyboard */,
+				505D5B80293654A7006F7218 /* ScrollViewDataController.swift */,
 				505D5B7E29364E9B006F7218 /* ScrollViewControllerForm.swift */,
 				505D5B5529364832006F7218 /* Assets.xcassets */,
 				505D5B5729364832006F7218 /* LaunchScreen.storyboard */,
@@ -265,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				505D5B5129364831006F7218 /* ViewController.swift in Sources */,
+				505D5B81293654A7006F7218 /* ScrollViewDataController.swift in Sources */,
 				505D5B4D29364831006F7218 /* AppDelegate.swift in Sources */,
 				505D5B4F29364831006F7218 /* SceneDelegate.swift in Sources */,
 				505D5B7F29364E9B006F7218 /* ScrollViewControllerForm.swift in Sources */,
