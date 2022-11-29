@@ -139,6 +139,37 @@
             </objects>
             <point key="canvasLocation" x="2189" y="-701"/>
         </scene>
+        <!--Table Item View Controller-->
+        <scene sceneID="Gco-vx-3gi">
+            <objects>
+                <viewController storyboardIdentifier="TableItemViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="M3i-M8-KDx" customClass="TableItemViewController" customModule="Assignment4" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="D8f-oF-CwD">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IQS-le-S0D">
+                                <rect key="frame" x="161" y="408" width="71" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="DP3-iv-S3H"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="IQS-le-S0D" firstAttribute="centerY" secondItem="D8f-oF-CwD" secondAttribute="centerY" id="fy4-1o-FXi"/>
+                            <constraint firstItem="IQS-le-S0D" firstAttribute="centerX" secondItem="D8f-oF-CwD" secondAttribute="centerX" id="t7c-GA-O9c"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="yUe-Jw-czq"/>
+                    <connections>
+                        <outlet property="tableItem" destination="IQS-le-S0D" id="k8R-8b-ZRC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9HH-Ca-YEX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3281.679389312977" y="-701.4084507042254"/>
+        </scene>
         <!--Scroll View-->
         <scene sceneID="HvW-dQ-1Ue">
             <objects>
